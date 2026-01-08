@@ -41,6 +41,7 @@ font-weight: 900;
   margin-bottom: 30px;
   line-height: 30px;
   color: #757575;
+  margin: auto;
 }
 /* main style  */
 header{
@@ -89,9 +90,8 @@ margin-bottom: 5px;
 font-size: 50px;
 font-weight: bold;
 color: #181818;
-margin bottom: 20px;
+margin bottom: 20px;}
 
-}
 #banner .banner-content p{
   font-size: 18px;
   color: #757575;
@@ -124,3 +124,39 @@ font-size: 20px;
   .about-info .info-card h4{
     font-size: 20px;
   }
+#skills{
+  padding: 130px;
+}
+.skills-container{
+  width: 71%;
+  max-width:1140px;
+  margin: 0 auto;
+}
+#skills .skills-container .skill-box{
+  display: flex;
+  gap: 24px;
+}
+.skill-box .skill-card{
+  padding: 30px;
+  /* border: 1px solid red; */
+  box-shadow: 0 6px 50pc 0 #0000002d;
+  max-width: 267px;
+
+}
+.skill-card img{
+  max-width: 44px;
+  margin-bottom: 30px;
+  
+}
+.skill-card h3{
+  font-size: 20px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.skill-card p{
+   font-size: 16px;
+  color: #757575;
+  line-height: 28px;
+ 
+
+}
